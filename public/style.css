@@ -1,0 +1,61 @@
+/****** Main Styling ******/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #333; /* Darker text color for better readability */
+  background-color: #F5F5F5; /* Slightly lighter background color */
+  text-align: center;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.container {
+  margin-top: 40px;
+  padding: 20px; /* Add padding to the container for spacing */
+  background-color: #fff; /* White background for the container */
+  border-radius: 8px; /* Add rounded corners */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.footer {
+  margin-top: 40px; /* Reduce the margin-top for the footer */
+  font-size: 14px; /* Slightly smaller font size for the footer */
+}
+
+a {
+  color: #3498db; /* A more vibrant blue color for links */
+  text-decoration: none; /* Remove underlines from links */
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #ccc; /* Add a light border to input fields */
+  border-radius: 4px; /* Add rounded corners to input fields */
+  font-size: 16px;
+}
+
+input#button {
+  background-color: #3498db; /* Blue background color for the button */
+  color: #fff; /* White text color for the button */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+input#button:hover {
+  background-color: #2980b9; /* Darker blue color on button hover */
+}
+
+.view {
+  margin-top: 40px;
+  border: 1px solid #ddd; /* Lighter border color */
+  padding: 20px;
+  width: 80%; /* Wider view container */
+  max-width: 600px; /* Limit the maximum width */
+  margin: 0 auto; /* Center the view container horizontally */
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
